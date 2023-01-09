@@ -21,3 +21,15 @@ body {
   width: 90%;
   margin: auto;
 }
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var( --SoftGrey);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--Grey);
+}

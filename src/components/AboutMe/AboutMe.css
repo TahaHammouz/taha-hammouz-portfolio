@@ -1,0 +1,149 @@
+.Aboutme {
+  padding: 55px;
+  min-height: 100vh;
+}
+.whoiam {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 21px;
+}
+.whoiam img {
+  width: 183px;
+  height: 207px;
+}
+.whoiam h4 {
+  width: 504px;
+  height: 75px;
+  font-weight: 900;
+  font-size: 64px;
+}
+.whoiam h4 span {
+  color: var(--DarkGrey);
+  font-weight: 900;
+  font-size: 64px;
+}
+.whoiam h4 span span {
+  color: var(--Grey);
+  font-weight: 900;
+  font-size: 64px;
+}
+.whoiam p {
+  color: var(--Grey);
+  max-width: 1032px;
+  font-weight: 500;
+  font-size: 24px;
+  height: 56px;
+}
+.skillsContainter {
+  margin-top: 140px;
+}
+
+.Aboutme h2 {
+  max-width: 316px;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 70px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 50px;
+}
+.Aboutme h2 span {
+  color: var(--DarkGrey);
+  font-weight: 900;
+  font-size: 64px;
+}
+.Aboutme h2 span span {
+  color: var(--Grey);
+  font-weight: 900;
+  font-size: 64px;
+}
+.Aboutme h4 {
+  line-height: 40px;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 998px;
+  gap: 50px;
+  justify-content: center;
+  margin: auto;
+  margin-top: -100px;
+}
+
+.skills p {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+}
+.skills img {
+  width: 30px;
+  height: 33px;
+  flex: 1 0 21%;
+  margin: px;
+}
+.box {
+  width: 170px;
+  height: 98px;
+}
+.box p {
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--Grey);
+}
+@media (max-width: 576px) {
+  .whoiam {
+    margin-top: 1rem;
+  }
+  .Aboutme {
+    display: flex;
+    flex-direction: column;
+  }
+  .whoiam h4 {
+    width: 190px;
+    height: 75px;
+    font-weight: 700;
+    font-size: 64px;
+  }
+  .whoiam h4 span {
+    font-weight: 900;
+    font-size: 64px;
+  }
+  .whoiam h4 span span {
+    font-weight: 700;
+    font-size: 50px;
+  }
+  .whoiam p {
+    max-width: 576px;
+    font-weight: 200;
+    font-size: 25px;
+    height: 56px;
+    padding-top: 2rem;
+  }
+  .whoiam h2 {
+    padding-top: 220px;
+  }
+  .Aboutme h2 span {
+    font-weight: 900;
+    font-size: 50px;
+  }
+  .Aboutme h2 span span {
+    font-weight: 900;
+    font-size: 55px;
+  }
+  .skills {
+    max-width: 576px;
+    gap: 5px;
+    margin-top: -100px;
+  }
+}
+@media (max-width: 648px) {
+  .whoiam {
+    padding-top: 10px;
+  }
+  .Aboutme h2 {
+    margin-top: 6rem;
+  }
+}

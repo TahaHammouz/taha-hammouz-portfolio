@@ -22,7 +22,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a data-section=".services" href="#services">
+            <a data-section=".services" href="#Services">
               Services
             </a>
           </li>

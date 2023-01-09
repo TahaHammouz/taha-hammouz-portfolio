@@ -1,3 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --Grey: #445964;
+  --DarkGrey: #263138;
+  --SoftGrey: #dfdfdf;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto";
+  font-style: normal;
+}
+body {
+  background: #fbfbfb;
+}
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+  display: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
 .navbar {
   box-shadow: 0px 5px 10px 0px #aaa;
   position: fixed;
@@ -7,13 +35,10 @@
   opacity: 0.85;
   z-index: 100;
 }
-.navbar input[type="checkbox"],
-.navbar .hamburger-lines {
-  display: none;
-}
+
 .navbar-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 64px;
   align-items: center;
 }
@@ -44,11 +69,6 @@
   color: var(--DarkGrey);
 }
 
-@media (max-width: 500px) {
-  .navbar-container input[type="checkbox"]:checked ~ .logo {
-    display: none;
-  }
-}
 @media (max-width: 768px) {
   .navbar {
     opacity: 0.95;
@@ -124,6 +144,7 @@
     padding-left: 40px;
     transition: transform 0.5s ease-in-out;
     box-shadow: 5px 0px 10px 0px #aaa;
+    overflow: scroll;
   }
 
   .navbar .menu-items li {
@@ -134,7 +155,7 @@
 
   .logo {
     position: absolute;
-    bottom: -27px;
+    top: 10px;
     right: 15px;
     font-size: 2.5rem;
   }
@@ -155,3 +176,329 @@
     transform: rotate(-45deg);
   }
 }
+
+@media (max-width: 500px) {
+  .navbar-container input[type="checkbox"]:checked ~ .logo {
+    display: none;
+  }
+}
+
+
+section {
+  padding: 100px 200px;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding-top: 94px;
+}
+
+.main h2 {
+  color: var(--DarkGrey);
+  font-size: 1.4em;
+  font-weight: 500;
+  line-height: 53px;
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--DarkGrey);
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.main h3 {
+  color: var(--Grey);
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 18px;
+}
+
+.social-icons a {
+  padding-right: 20px;
+  align-items: center;
+}
+.social-icons a img {
+  width: 39.92px;
+  height: 39.92px;
+}
+
+.programmer {
+  width: 705px;
+  height: 697px;
+}
+/* Home */
+.Aboutme {
+  padding: 55px;
+  min-height: 100vh;
+}
+.whoiam {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 21px;
+}
+.whoiam img {
+  width: 183px;
+  height: 207px;
+}
+.whoiam h4 {
+  width: 504px;
+  height: 75px;
+  font-weight: 900;
+  font-size: 64px;
+}
+.whoiam h4 span {
+  color: var(--DarkGrey);
+  font-weight: 900;
+  font-size: 64px;
+}
+.whoiam h4 span span {
+  color: var(--Grey);
+  font-weight: 900;
+  font-size: 64px;
+}
+.whoiam p {
+  color: var(--Grey);
+  max-width: 1032px;
+  font-weight: 500;
+  font-size: 24px;
+  height: 56px;
+}
+.skillsContainter {
+  margin-top: 140px;
+}
+
+.Aboutme h2 {
+  max-width: 316px;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 70px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 50px;
+}
+.Aboutme h2 span {
+  color: var(--DarkGrey);
+  font-weight: 900;
+  font-size: 64px;
+}
+.Aboutme h2 span span {
+  color: var(--Grey);
+  font-weight: 900;
+  font-size: 64px;
+}
+.Aboutme h4 {
+  line-height: 40px;
+}
+/* Skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 998px;
+  gap: 50px;
+  justify-content: center;
+  margin: auto;
+  margin-top: -100px;
+}
+
+.skills p {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+}
+.skills img {
+  width: 30px;
+  height: 33px;
+  flex: 1 0 21%;
+  margin: px;
+}
+.box {
+  width: 170px;
+  height: 98px;
+}
+.box p {
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--Grey);
+}
+/* Services */
+.cards{
+  padding: 100px;
+  min-height: 100vh;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: var(--DarkGrey);
+  font-weight: 900;
+  font-size: 64px;
+  margin-bottom: 30px;
+  padding: 100px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: var(--SoftGrey);
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card .icon {
+  color: var(--Grey);
+  font-size: 8em;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h3{
+  color: var(--Grey);
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+/* Techs */
+.techs h4 {
+  text-align: center;
+}
+.techs h4 span {
+  color: var(--DarkGrey);
+  font-weight: 900;
+  font-size: 64px;
+}
+.techs h4 span span {
+  color: var(--Grey);
+  font-weight: 900;
+  font-size: 64px;
+}
+.used {
+  padding: 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.used p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--Grey);
+}
+.techs p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+.techs h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--Grey);
+  font-weight: bold;
+}
+.alreadyused {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.alreadyused img {
+  width: 90px;
+  height: 90px;
+  align-items: center;
+}
+
+.learnmore {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.learnmore p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--Grey);
+}
+.learnmore h2 span {
+  color: var(--Grey);
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+}
+.learnmore h2 span span {
+  color: var(--DarkGrey);
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.developing {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.developing img {
+  width: 90px;
+  height: 90px;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  
+  header {
+    padding: auto;
+    justify-content: space-evenly;
+  }
+  .main h2 {
+    line-height: 45px;
+  }
+
+  .logo {
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-top: 6px;
+  }
+  .navigation a {
+    padding-left: 10px;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+

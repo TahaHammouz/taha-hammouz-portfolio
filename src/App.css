@@ -15,10 +15,6 @@
 body {
   background: #fbfbfb;
 }
-.navbar input[type="checkbox"],
-.navbar .hamburger-lines {
-  display: none;
-}
 
 .container {
   max-width: 1200px;

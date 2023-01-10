@@ -32,7 +32,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a data-section=".contact" href="./assets/pages/contact.html">
+            <a data-section=".contact" href="#Footer">
               Contact
             </a>
           </li>

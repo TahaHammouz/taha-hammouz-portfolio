@@ -1,0 +1,135 @@
+.techs h4 {
+  text-align: center;
+}
+.techs h4 span {
+  color: var(--DarkGrey);
+  font-weight: 900;
+  font-size: 64px;
+}
+.techs h4 span span {
+  color: var(--Grey);
+  font-weight: 900;
+  font-size: 64px;
+}
+.used {
+  padding: 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.used p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--Grey);
+}
+.techs p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+.techs h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--Grey);
+  font-weight: bold;
+}
+.alreadyused {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.alreadyused img {
+  width: 90px;
+  height: 90px;
+  align-items: center;
+}
+
+.learnmore {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.learnmore p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--Grey);
+}
+.learnmore h2 span {
+  color: var(--Grey);
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+}
+.learnmore h2 span span {
+  color: var(--DarkGrey);
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.developing {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.developing img {
+  width: 90px;
+  height: 90px;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .used {
+    padding: 10px;
+    margin: 10px;
+  }
+  .used p {
+    font-weight: 300;
+    font-size: 20px;
+  }
+  .techs p {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .techs {
+    padding: 120px;
+  }
+  .alreadyused {
+    gap: 2px;
+  }
+  .alreadyused img {
+    width: 70px;
+    height: 70px;
+    align-items: center;
+  }
+  .learnmore {
+    padding: 10px;
+    gap: 5px;
+  }
+  .learnmore h2 span {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .learnmore h2 span span {
+    font-size: 30px;
+  }
+
+  .developing {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  .developing img {
+    width: 70px;
+    height: 70px;
+  }
+  .card .icon {
+    font-size: 4em;
+  }
+}

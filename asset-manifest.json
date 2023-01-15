@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.99ca6eff.css",
-    "main.js": "/static/js/main.b50e5469.js",
-    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
-    "static/media/programmer.png": "/static/media/programmer.382e8c29673b72339edb.png",
-    "static/media/js.png": "/static/media/js.320ec8494735362a1071.png",
-    "static/media/taha.png": "/static/media/taha.5e06db93456672a879c9.png",
-    "static/media/Vector1.png": "/static/media/Vector1.3ba38a5bcf776bbb5836.png",
-    "static/media/Vector0.png": "/static/media/Vector0.d06e4839e27d85343bdb.png",
-    "index.html": "/index.html",
-    "main.99ca6eff.css.map": "/static/css/main.99ca6eff.css.map",
-    "main.b50e5469.js.map": "/static/js/main.b50e5469.js.map",
-    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/taha-hammouz-portfolio/static/css/main.99ca6eff.css",
+    "main.js": "/taha-hammouz-portfolio/static/js/main.2c994821.js",
+    "static/js/787.a2cb61a6.chunk.js": "/taha-hammouz-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/programmer.png": "/taha-hammouz-portfolio/static/media/programmer.382e8c29673b72339edb.png",
+    "static/media/js.png": "/taha-hammouz-portfolio/static/media/js.320ec8494735362a1071.png",
+    "static/media/taha.png": "/taha-hammouz-portfolio/static/media/taha.5e06db93456672a879c9.png",
+    "static/media/Vector1.png": "/taha-hammouz-portfolio/static/media/Vector1.3ba38a5bcf776bbb5836.png",
+    "static/media/Vector0.png": "/taha-hammouz-portfolio/static/media/Vector0.d06e4839e27d85343bdb.png",
+    "index.html": "/taha-hammouz-portfolio/index.html",
+    "main.99ca6eff.css.map": "/taha-hammouz-portfolio/static/css/main.99ca6eff.css.map",
+    "main.2c994821.js.map": "/taha-hammouz-portfolio/static/js/main.2c994821.js.map",
+    "787.a2cb61a6.chunk.js.map": "/taha-hammouz-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99ca6eff.css",
-    "static/js/main.b50e5469.js"
+    "static/js/main.2c994821.js"
   ]
 }
